@@ -8,31 +8,48 @@
 </head>
 <body>
 
+<table border="1">
+    <tr>
 
-    <a href="inicio.html">inicio</a>
-    <a href="conocenos.html">conocenos</a>
-    <a href="productos.html">productos</a>
-    <a href="ChecaOdalisExamenOrd.html">Registro</a>
-    <a href="contacto.html">contacto</a>
+   <td> <a href="inicio.html">inicio</a> </td>
+   <td> <a href="conocenos.html">conocenos</a> </td>
+    <td> <a href="productos.html">productos</a> </td>
+   <td> <a href="ChecaOdalisExamenOrd.html">Registro</a> </td>
+    <td><a href="contacto.html">contacto</a></td>
 
+    </tr>
+    <table>
+
+        <table border|="0.5">
+            <tr>
 
   <div class="card">
     <h1>Registrar en este sitio</h1>
 
     <div class="input-group">
       <span class="icon"><i class="fa-regular fa-user"></i></span>
-      <input type="text" placeholder="nombre del usuario" autocomplete="nombre del usuario" />
+      <label for="text">nombre del usuario</label><br>
+      <input type="text" placeholder="nombre del usuario" autocomplete="nombre del usuario" /><br><br>
     </div>
 
     <div class="input-group">
       <span class="icon"><i class="fa-regular fa-envelope"></i></span>
-      <input type="email" placeholder="correo electronico" autocomplete="correo electronico" />
+     <label for="text">correo electronico</label> <br>
+      <input type="email" placeholder="correo electronico" autocomplete="correo electronico" /><br><br>
+    </div>
+
+    <div>
+        <p>se enviara una confirmacion del registro ppor correo electronico</p>
     </div>
 
 <button class="input-group"></button>
 <label for="registar">registar</label>
 
 </div>
+</tr>
+</table>
+<link rel="stylesheet" href="styles.css">
+
 
 </body>
 </html>
